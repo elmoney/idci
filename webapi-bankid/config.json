@@ -1,0 +1,15 @@
+{
+  "Settings": {
+    "publicKeyPath": "../examples/chaincode/go/chaincode_bankid/ssl/test-bank/id_rsa.pub",
+    "privateKeyPath": "../examples/chaincode/go/chaincode_bankid/ssl/test-bank/id_rsa",
+    "bICertPath": "../examples/chaincode/go/chaincode_bankid/ssl/bi/id_rsa.pub",
+    "peerQueryUrl": "http://localhost:5000/devops/query",
+    "peerDeployUrl": "http://localhost:5000/devops/deploy",
+    "peerInvokeUrl": "http://localhost:5000/devops/invoke",
+    "peerRegistrarUrl": "http://localhost:5000/registrar",
+    "chainCodeName" : "bicc",
+    "peerOwnerAlias" :"test-bank",
+    "logPath" :"/var/log/bank-web-api/foo.log",
+    "testMode" : "1"
+  }
+}
